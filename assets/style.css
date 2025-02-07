@@ -1,0 +1,96 @@
+@keyframes fade {
+    from {
+        color: #ffffff;
+    }
+    to {
+        color: #edff86;
+    }
+}
+
+.btnYes {
+    transition: 0.3s;
+    padding: 10 30;
+    background-color: #4eec76;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.btnYes:hover{
+    background-color: #ff86c2; /* Green */
+    color: white;
+}
+
+.btnNo {
+    display: block;
+    
+    top: 60%;
+    left: 40%;
+    padding: 10 30;
+}
+.container {
+    background-color: rgba(0, 0, 0, 0.397);
+    height: max-content;
+    width: auto;
+    padding-bottom: 54px;
+}
+
+.bodyIndex {
+    background: url("./img/bg_img.gif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 40%;
+    height: 100%;
+    cursor: url("./img/pocchaco_cursor.png"), auto;
+}
+.pIndex {
+    font-family: "DynaPuff", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    color: #ffffff;
+    text-align: center;
+    padding-inline: 20%;
+    padding-top: 20;
+    top: 40%;
+    font-size: large;
+    text-shadow: -1px 0 black, 0 3px black, 3px 0 black, 0 -1px black;
+}
+
+.pDeclaration {
+    font-family: "DynaPuff", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    color: #ffffff;
+    text-align: center;
+    padding-inline: 20%;
+    padding-top: 20;
+    top: 40%;
+    font-size: large;
+    text-shadow: -1px 0 black, 0 3px black, 3px 0 black, 0 -1px black;
+    animation-name: fade;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+html {
+    background: #e01717;
+}
+
+button {
+    font-family: "DynaPuff", serif;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10%;
+    font-size: large;
+}
